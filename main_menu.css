@@ -1,0 +1,119 @@
+body {
+    background-color: whitesmoke;
+    font-family: consolas;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(41, 75, 223);
+    padding-top: 1%;
+    padding-left: 3%;
+}
+
+.img-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+
+.search-bar > input {
+    font-family: consolas;
+    font-size: large;
+    margin-left: 2em;
+}
+
+.search-bar-btn > button {
+    font-family: consolas;
+    margin-top: 8%;
+    margin-right: 2em;
+    font-size: 150%;
+}
+
+.news {
+    position: relative;
+    top: 5em;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.one-post {
+    background-color: rgb(214, 212, 212);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: solid 4px;
+    border-color: rgb(41, 75, 223);
+}
+
+.btn-1{
+    margin-right: 2em;
+}
+
+.btn-2{
+    margin-right: 2em;
+}
+
+.btn-3{
+    margin-right: 2em;
+}
+
+.btn-4 {
+    margin-right: 2em;
+}
+
+.head-pic {
+    border: solid 3px;
+    border-color: rgb(41, 75, 223);
+}
+
+.post-head {
+    display: flex;
+    flex-direction: row;
+    font-size: 130%;  
+}
+
+.ref-on-prof {
+    margin-left: 0.5em;
+    font-size: 130%;
+}
+
+.ref-on-prof-class {
+    margin-top: 1em;
+}
+
+.user-name {
+    font-size: 70%;
+    color: whitesmoke;
+    margin-left: 30px;
+}
+
+.new-pic-one > img {
+    max-width: 70%;
+    max-height: 70%;
+    min-width: 30%;
+    min-height: 30%;
+}
+
+.ref-btn > button {
+    font-family: consolas;
+    font-size: 160%;
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-bottom: 3%;
+}
